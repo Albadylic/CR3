@@ -7,7 +7,7 @@ submitButton.addEventListener("click", (event) => {
   if (input.value === "") {
     output.textContent = "Please enter an input";
   } else {
-    output.value = checkInput(input.value);
+    output.textContent = checkInput(input.value);
   }
 });
 
